@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-
 class register extends Component {
     render(){
         return(
@@ -19,7 +18,7 @@ class register extends Component {
                             </div>
                             <div className="">
                                 <div><input placeholder="Email адрес" className="border-b-2 outline-none w-64"/></div>
-                                <div className="mt-8"><a href="/reg"><button as='a' className="inline-flex bg-yellow-400 hover:bg-black px-24 py-2 rounded text-black hover:text-white transition-colors duration-150">
+                                <div className="mt-8"><a href="/main"><button as='a' className="inline-flex bg-yellow-400 hover:bg-black px-24 py-2 rounded text-black hover:text-white transition-colors duration-150">
                                     Создать
                                 </button></a></div>
                             </div>

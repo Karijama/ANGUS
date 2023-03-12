@@ -17,7 +17,7 @@ class login extends Component {
                                 <div className=""><input placeholder="Логин" className="border-b-2 outline-none"/></div>
                                 <div className=""><input placeholder="Пароль" className="border-b-2 outline-none"/></div>
                             </div>
-                            <div className="mt-5 text-center"><a href="/"><button as='a' className="font-bold inline-flex bg-yellow-400 hover:bg-black px-24 py-3 rounded text-black hover:text-white transition-colors duration-150 text-xl">
+                            <div className="mt-5 text-center"><a href="/main"><button as='a' className="font-bold inline-flex bg-yellow-400 hover:bg-black px-24 py-3 rounded text-black hover:text-white transition-colors duration-150 text-xl">
                                 Войти
                             </button></a></div>
                         </form>

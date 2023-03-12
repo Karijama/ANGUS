@@ -3,6 +3,7 @@ import kids from '../static/kids.svg';
 import left from '../static/left.svg';
 import right from '../static/right.svg';
 import kidsbl from '../static/kidsbl.svg';
+import { Carousel } from 'react-responsive-carousel';
 class home extends Component {
     render() {
         return (
@@ -43,11 +44,11 @@ class home extends Component {
                 <div className="bg-black mt-10 py-32">
                     <div className="flex justify-between">
                         <div className="basis-1/6"></div>
-                        <div className="flex justify-between">
-                            <div className=""><img src={kidsbl} alt='kidsbl'/></div>
-                            <div className="text-white">
-                                <div className="ms-10"><p>Готовы взять готовность?</p></div>
-                                <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/> sed do eiusmod tempor incididunt ut labore 
+                        <div className="flex justify-center">
+                            <div className="me-10"><img src={kidsbl} alt='kidsbl'/></div>
+                            <div className="text-white ms-10">
+                                <div className=""><p>Готовы взять готовность?</p></div>
+                                <div className=""><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/> sed do eiusmod tempor incididunt ut labore 
                                     et dolore magna aliqua.<br/> Ut enim ad minim veniam, quis nostrud exercitation<br/> ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
                             </div>
                             <div>Product</div>
